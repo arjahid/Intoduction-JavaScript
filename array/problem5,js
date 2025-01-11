@@ -1,0 +1,4 @@
+const fname=["jahid"];
+const lname=["hasan"];
+let concate=fname.concat(lname)
+console.log(concate)
