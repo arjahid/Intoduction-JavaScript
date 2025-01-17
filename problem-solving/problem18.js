@@ -5,4 +5,3 @@ const odd_even=(number)=>{
         console.log("odd")
     }
 }
-odd_even(1);

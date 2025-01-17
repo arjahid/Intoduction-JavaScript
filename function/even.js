@@ -15,3 +15,5 @@ const  result=typeOfnumber(value);
 console.log("even number is",result.even)
 
 console.log("odd number is",result.odd)
+
+

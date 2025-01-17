@@ -12,3 +12,4 @@ const sumOfnumber=(number)=>{
 // const result=sumOfnumber(value);
 // console.log(result)
 console.log(sumOfnumber([1,2,3,4]));
+// 
