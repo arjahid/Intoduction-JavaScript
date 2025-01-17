@@ -9,5 +9,5 @@ const isLeapYear=(year)=>{
         return false;
     }
 }
-const year=2023;
+const year=2024;
 console.log(year +" is leap year : "+isLeapYear(year))
