@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Here is dom event </h1>
+    <p id="para">defualt text</p>
+    <br>
+    <input id="inp" type="text">
+    <button id="btn">update</button>
+    <script>
+        document.getElementById('btn').addEventListener('click',()=>{
+            const input=document.getElementById('inp');
+            const inputText=input.value;
+            const p=document.getElementById('para');
+            p.innerText=inputText;
+            input.value='';
+        })
+    </script>
+</body>
+</html>
