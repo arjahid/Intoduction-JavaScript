@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hi">Dom special event</h1>
+    <button onclick="blueButton()">click me</button>
+    <button id="redButton">click me</button>
+    <button id="pink">click me</button>
+
+
+    <script src="event.js"></script>
+    <script>
+        const pinks=document.getElementById('pink');
+        pinks.addEventListener('click',()=>{
+            document.body.style.backgroundColor ='pink'
+        })
+    </script>
+</body>
+</html>
