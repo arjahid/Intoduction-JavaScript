@@ -1,0 +1,10 @@
+const isHappy=false;
+const isReaply=true;
+const celebrate=true;
+const isStudyDone=true;
+const isDinnerDone=false;
+console.log(isHappy);
+console.log(isReaply);
+console.log(celebrate);
+console.log(isStudyDone);
+console.log(isDinnerDone);
